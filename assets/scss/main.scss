@@ -1,0 +1,28 @@
+//abstracts
+@import "abstract/variables";
+@import "abstract/mixins";
+
+//vendor
+@import "vendor/bootstrap4.6/bootstrap.scss";
+
+//base
+// @import "base/reset";
+
+//layout
+@import "layout/header";
+@import "layout/footer";
+@import "layout/seccion";
+@import "layout/navbar";
+
+//pages
+// @import "pages/index";
+
+
+//incluye botones
+.texto--button--medium {
+    @include button--medium($white, $nickel, $medium, $regular, $roboto);
+}
+
+.texto--button--small {
+    @include button--small($white, $nickel, $small, $regular, $roboto);
+}

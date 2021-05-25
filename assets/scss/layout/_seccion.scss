@@ -1,0 +1,131 @@
+// primera seccion corresponde a text y botones
+.texto
+{
+    color: $raisin-black;  
+
+    &__texto--fecha{
+        color: $nickel;
+        font-size: $medium;
+        font-weight:$light2;    
+        font-family: $playfair;
+        padding: 1.2rem 0rem 3.2rem 0rem;
+        }
+
+    &__texto--descripcion{
+        line-height: $text-height; 
+        font-family: $roboto; 
+        font-size: $medium;   
+        font-weight: $light2;
+        }
+    &__p{
+        margin-right:1.5rem;
+        font-size: $medium;
+        text-align: left;
+    }
+    &__texto--destacado{
+    color: $ruddy-pink;
+    }
+
+    &__texto--botones {
+        margin-top: 4rem;
+        margin-bottom: 2.5rem;
+    }
+}
+
+
+//segunda seecion a blogger
+.blogger {
+    height: 300px;
+    width: 100%;
+    border-top: 1px solid $light-gray;
+    padding: 5rem 0rem; 
+    
+    &__blogger--imagen--block
+    {
+        text-align: center;  
+    }
+    &__blogger--imagen{
+        height: 140px;
+        width: 140px;
+        vertical-align: top;
+    }
+    &__blogger--texto{
+        padding: 1.5rem 0rem 0rem 0.5rem;
+        text-align: center;
+    }
+    &__blogger--texto--block {
+        text-align: left;
+    }
+    &__blogger--naomi       {
+        font-weight: $bold;
+        font-size: $x-large;
+        font-family: $playfair;
+        font-style: italic;
+        padding: 0.2rem 0.2rem;
+        text-align: left;
+    }
+    &__blogger--nahotai--texto   
+    {
+        text-decoration: none;
+        vertical-align: top;
+        font-weight: $light2;
+        font-size: $medium;
+        font-family: $roboto;
+        color: $spanish-pink;
+        text-align: left;
+       
+    }
+    &__blogger--texto--content {
+        line-height: $text-height;
+    }
+
+}
+
+    
+//paginador
+.paginador {
+    background-color: $platinum;
+    height: 115px;
+
+    &__paginador--content {
+        text-align: center;
+        padding: 4% 37% 6% 37%;
+    }
+}
+
+
+//paginador cambios
+.pagination > li > a
+{
+    background-color: white;
+    color: $raisin-black;
+}
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover
+{
+    color: white;
+    background-color: $raisin-black;
+    border: solid 1px $raisin-black;
+}
+
+.pagination > .active > a
+{
+    color: white;
+    background-color: $raisin-black;
+    border: solid 1px $raisin-black;
+}
+
+.pagination > .active > a:hover
+{
+    background-color: $raisin-black;
+    border: solid 1px $raisin-black;
+}
+.border--redondo{
+    border-radius: 0 30px 30px 0 !important;
+}
+.border--redondo--inverso{
+    border-radius: 30px 0px 0px 30px !important;
+}
+

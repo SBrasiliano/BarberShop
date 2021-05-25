@@ -1,0 +1,22 @@
+@mixin button--medium($white, $nickel, $medium, $regular, $roboto) {
+width: 180px;
+height: 52px;
+border-radius: 26px;
+background-color: $nickel;
+font-family: $roboto;
+font-weight: $regular;
+font-size: $medium;
+color: $white;
+}
+
+@mixin button--small($white, $nickel, $small, $regular, $roboto) {
+    width: 115px;
+    height: 52px;
+    border-radius: 26px;
+    background-color: $nickel;
+    font-family: $roboto;
+    font-weight: $regular;
+    font-size: $medium;
+    color: $white;
+}
+
